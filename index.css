@@ -1,0 +1,185 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	height: 100vw;
+	font-size: 18px;
+	scroll-behavior: smooth;
+}
+
+nav {
+	justify-content: space-between;
+	background-color: #4fa2ed;
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+	display: flex;
+	padding: 5px 2rem;
+
+}
+
+.US-section {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the images horizontally */
+    margin: 0 auto; /* Centers the elements horizontally */
+    margin-bottom: 20px; /* Adds some space between the sections */
+}
+
+.US-section img {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    border-radius: 50%; /* Adds border radius to make them round */
+    overflow: hidden; /* Hides the image overflow */
+}
+
+.US-section .NOORJ img {
+	border-radius: 50%;
+}
+
+.US-section p {
+	margin: 2.5%;
+}
+
+
+.login-button{
+   background-color: transparent;
+   border: 1.5px solid #000000;
+   border-radius: 10px;
+   padding: 0.6rem 0.8rem;
+   margin-left: 2vw;
+   font-size: 1rem;
+   cursor: pointer;
+   font-family: sans-serif;
+
+}
+
+.login-button:hover {
+   color: #131418;
+   background-color: #f2f5f7;
+   border: 1.5px solid #f2f5f7;
+   transition: all ease-in-out 350ms;
+}
+
+.banner img {
+	max-width: 100%;
+}
+
+nav div img {
+	width: 70px;
+}
+
+nav ul {
+	align-items: center;
+	display: flex;
+	gap: 2rem;
+	list-style: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #000000;
+	font-weight: 600;
+	padding: 8px 0;
+	transition: all;
+	transition-duration: 300ms;
+	border-bottom: 2px solid rgba(255, 68, 0, 0);
+}
+
+nav ul li a:hover {
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+
+}
+
+.section img {
+	width: 100%;
+	vertical-align: top;
+	border-radius: 5;
+
+}
+
+.about-section,
+.service-section,
+.contact-section {
+	min-height: 100vh;
+	align-items: center;
+	display: flex;
+}
+
+.about-section {
+	background: #799972;
+}
+
+.service-section {
+	background: #bac6e9S;
+}
+
+.contact-section {
+	background: #bfa97f;
+}
+.contact-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.contact-section .contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.contact-section .contact-info li {
+		align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+
+}
+
+.contact-section .contact-info a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact-section .contact-info a:hover {
+    text-decoration: underline;
+    color: 	#4fa2ed;
+}
+
+#scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: #000000;
+  border: 2px solid #000000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#scroll-to-top-button:hover {
+  background-color: #f2f5f7;
+  border: 2px solid #f2f5f7;
+  transition: all ease-in-out 500ms;
+}
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.center-text {
+	margin: 10%;
+}
+
+
+
+
+
+
+

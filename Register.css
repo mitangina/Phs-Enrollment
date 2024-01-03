@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+
+body {
+	height: 100vh;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	display: flex;
+	background-image: url("PSHS.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+form {
+	width: 500px;
+	border: 5px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 30px;
+	border-color: #4fa2ed;
+	background: rgba(225, 225, 225, 0.8);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-container h1 {
+	text-align: center;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+
+.form-container input {
+	background: rgba(225, 225, 225, 0.5);
+	display: block;
+	width: 80%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 10px;
+}
+
+.form-container button {
+	background-color: #4fa2ed;
+	display: block;
+	width: 80%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 12px;
+}
+
+.form-container select {
+    background-color: #4fa2ed;
+    display: block;
+    width: 22%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 12px;
+}
+
+.form-container a, p {
+	text-align: center;
+	justify-content: center;
+}
+
+form div img {
+	width: 80px;
+	align-items: center;
+	display: flex;
+	border: 3px solid;
+	border-color: #4fa2ed;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
